@@ -1,0 +1,158 @@
+/* Styles specific to index.html */
+
+/* Body styles */
+body {
+  background-color: #edede9;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+header {
+  background-color: #d6ccc2;
+  padding-top: 20px;
+}
+
+.navbar-brand {
+  color: #333333;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #333333;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: #f5ebe0;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.hero .btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: #d5bdaf;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Features section styles */
+.features {
+  background-color: #e3d5ca;
+  padding: 50px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.feature-item {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.feature-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 18px;
+}
+
+.how-it-works {
+  background-color: #f5ebe0;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.how-it-works h2 {
+  text-align: center;
+  margin
+}
+
+/* Carousel section styles */
+.carousel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.carousel-inner {
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+
+.carousel-item {
+  display: none;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.carousel-inner h2 {
+  font-size: 24px;
+  color: #333333;
+}
+
+.carousel-inner p {
+  font-size: 16px;
+  color: #666666;
+}
+
+.carousel-indicators {
+  bottom: -30px;
+}
+
+.carousel-indicators li {
+  background-color: #CCCCCC;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: #333333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
